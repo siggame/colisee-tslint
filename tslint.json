@@ -1,6 +1,6 @@
 {
     "rules": {
-        "no-console": true,
+        "no-console": [true],
         "no-unnecessary-type-assertion": true,
         "radix": true,
         "eofline": true,
@@ -11,7 +11,7 @@
         "no-consecutive-blank-lines": true,
         "no-irregular-whitespace": true,
         "no-unnecessary-initializer": true,
-        "object-literal-key-quotes": "as-needed",
+        "object-literal-key-quotes": [true, "as-needed"],
         "quotemark": [true, "double", "avoid-template"],
         "semicolon": [true, "always"],
         "variable-name": [true, "check-format"],
@@ -21,17 +21,10 @@
         "object-literal-sort-keys": true,
         "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
         "class-name": true,
-        "completed-docs": {
-            "classes": { "visibilities": ["exported"] },
-            "functions": { "visibilities": ["exported"] },
-            "methods": {
-                "privacies": ["public", "protected"]
-            }
-        },
         "ordered-imports": true,
         "prefer-template": true,
         "no-require-imports": true,
-        "deprication": true,
+        "deprecation": true,
         "typeof-compare": true,
         "triple-equals": [true, "allow-null-check"]
     }

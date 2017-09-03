@@ -1,6 +1,6 @@
 {
   "name": "@siggame/colisee-tslint",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "The official tslint config for ACM SIG-Game's Colisee",
   "main": "index.js",
   "scripts": {

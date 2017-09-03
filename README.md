@@ -23,10 +23,17 @@ A long description of the project.
 npm install --save-dev tslint @siggame/colisee-tslint
 ```
 
+Add the following `tslint.json`
+```json
+{
+    "extends": "@siggame/colisee-tslint/tslint.json"
+}
+```
+
 Add the following to your `package.json` scripts:
 ```json
-    "lint": "tslint -c node_modules/@siggame/colisee-tslint/tslint.json --project ./tsconfig.json",
-    "lint-fix": "tslint --fix -c node_modules/@siggame/colisee-tslint/tslint.json --project ./tsconfig.json"
+    "lint": "tslint --format verbose --project ./tsconfig.json",
+    "lint-fix": "tslint --fix --format verbose --project ./tsconfig.json"
 ```
 
 ## Usage
