@@ -16,7 +16,7 @@ The official tslint config for ACM SIG-Game's Colisee
 
 ## Description
 
-A long description of the project.
+Base rules for tslint that Colisee typescript components will require.
 
 ## Getting Started
 ```
