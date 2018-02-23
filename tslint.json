@@ -1,31 +1,63 @@
 {
     "rules": {
-        "no-console": [true],
+        "no-console": [
+            true
+        ],
         "no-unnecessary-type-assertion": true,
         "radix": true,
         "eofline": true,
-        "indent": [true, "spaces", 4],
-        "max-line-length": [true, 140],
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "max-line-length": [
+            true,
+            140
+        ],
         "prefer-const": true,
         "arrow-return-shorthand": true,
         "no-consecutive-blank-lines": true,
         "no-irregular-whitespace": true,
         "no-unnecessary-initializer": true,
-        "object-literal-key-quotes": [true, "as-needed"],
-        "quotemark": [true, "double", "avoid-template"],
-        "semicolon": [true, "always"],
-        "variable-name": [true, "check-format"],
+        "object-literal-key-quotes": [
+            true,
+            "as-needed"
+        ],
+        "quotemark": [
+            true,
+            "double",
+            "avoid-template"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "variable-name": [
+            true,
+            "ban-keywords",
+            "check-format",
+            "allow-snake-case"
+        ],
         "no-unused-variable": true,
         "no-var-keyword": true,
         "no-string-throw": true,
         "object-literal-sort-keys": true,
-        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
         "class-name": true,
         "ordered-imports": true,
         "prefer-template": true,
         "no-require-imports": true,
         "deprecation": true,
-        "typeof-compare": true,
-        "triple-equals": [true, "allow-null-check"]
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ]
     }
 }
