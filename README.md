@@ -2,11 +2,12 @@
 
 The official tslint config for ACM SIG-Game's Colisee
 
-[![Dependencies](https://img.shields.io/david/siggame/colisee-tslint.svg)](https://github.com/siggame/colisee-tslint)
-[![NPM Version](https://img.shields.io/npm/@siggame/colisee-tslint.svg?style=flat-square)](https://www.npmjs.com/package/@siggame/colisee-tslint)
+[![dependencies Status](https://david-dm.org/siggame/colisee-tslint/status.svg?style=flat-square)](https://david-dm.org/siggame/colisee-tslint)
+[![NPM Version](https://img.shields.io/npm/siggame/colisee-tslint.svg?style=flat-square)](https://www.npmjs.com/package/@siggame/colisee-tslint)
 [![NPM Total Downloads](https://img.shields.io/npm/dt/@siggame/colisee-tslint.svg?style=flat-square)](https://www.npmjs.com/package/@siggame/colisee-tslint)
 
 ## Table Of Contents
+
 - [Description](#description)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -49,14 +50,13 @@ npm run lint-fix
 ```
 
 ## Contributors
+
 - [Russley Shaw](https://github.com/russleyshaw)
 - [user404d](https://github.com/user404d)
-- [Hannah Reinbolt](https://github.com/LoneGalaxy)
-- [Matthew Qualls](https://github.com/MatthewQualls)
 
 ## License
 
-View our [LICENSE.md](https://github.com/siggame/colisee/blob/master/LICENSE.md)
+View our [LICENSE](https://github.com/siggame/colisee/blob/master/LICENSE)
 
 ## Contributing
 
